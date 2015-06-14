@@ -1,0 +1,16 @@
+<footer class="container">
+  <p>
+    {% icon fa-envelope %}
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    {% if site.github_username %}
+      {% icon fa-github %}
+      <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+    {% endif %}
+    {% if site.twitter_username %}
+      {% icon fa-twitter %}
+      <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
+    {% endif %}
+  </p>
+
+  <p>{{ site.description }}</p>
+</footer>

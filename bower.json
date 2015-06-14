@@ -1,0 +1,18 @@
+{
+  "name": "jekyll-template",
+  "version": "0.0.0",
+  "homepage": "https://github.com/firedev/jekyll-template",
+  "authors": [
+    "Nick Ostrovsky <nick@firedev.com>"
+  ],
+  "description": "jekyll-template",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+ ],
+  "dependencies": {
+    "basscss": "~6.1.6"
+  }
+}

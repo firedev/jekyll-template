@@ -1,0 +1,9 @@
+<article>
+  <time>{{ include.post.date | date_to_string }}</time>
+  <h2>
+    <a href="{{ include.post.url }}">{{ include.post.title }}</a>
+  </h2>
+  <p>
+    {{ include.post.excerpt | markdownify | strip_html }}
+  </p>
+</article>
